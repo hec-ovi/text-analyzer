@@ -1,4 +1,20 @@
-## Text Analysis App
+<h1 align="center">text-analyzer</h1>
+
+<p align="center">
+  <strong>Web app for batch text analysis with OpenAI: classification, summary, sentiment, sensitivity, and key-topic extraction. Docker-packaged.</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Working-brightgreen" alt="Status" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white" alt="OpenAI" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/License-MIT-blue" alt="License" />
+</p>
+
+---
+
+## What this is
+
 The Text Analysis App is a web application that performs various text analysis tasks on user-provided input text. The app provides several options for analyzing the text, including classification, summary generation, sentiment analysis, sensitivity classification, and identification of key topics. The app utilizes a set of rules and endpoints to process the input text and generate the analysis results.
 
 # Installation
@@ -50,4 +66,10 @@ For each option, you can enable or disable it using the corresponding checkbox. 
 After configuring the options and providing the input text, click the "Start Text/Document Analysis" button to initiate the analysis process. The app will display a progress bar indicating the progress of the analysis. Once the analysis is complete, the app will present the results in different panels, including classification, sentiment analysis, key topics, sensitivity, and summary.
 
 # Contributing
-Contributions to the Text Analysis App are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request on the GitHub repository.
+Contributions to the Text Analysis App are welcome. If you find any issues or have suggestions for improvement, please open an issue or submit a pull request on the GitHub repository.
+
+---
+
+## License
+
+[MIT](LICENSE) for original code in this repository (web app source, Dockerfile, Compose configs). The OpenAI API consumed at runtime is governed by OpenAI's terms of service; this repository does not redistribute API keys or any content fetched from the API.
